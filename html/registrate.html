@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrate</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/effd921d37.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo-header">
+            <i class="fa-solid fa-umbrella fa-3x"></i>
+            <div id="LOGO-TIT">
+                <h1>GREYCONCEPT</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li><a href="encuestas.html">Encuesta</a></li>
+                <li><a href="servicios.html">Servicios y Shop</a></li>
+            </ul>
+            <div id="buscador">
+                <input type="text" placeholder="Buscar" >
+                <div id="busc-lp">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="registrado">
+        <div id="box-registro">
+            <h1>Crea una cuenta</h1>
+            <form action="index.html">
+                <div class="for-registro">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="Nombre" maxlength="15" required="required" placeholder="Nombre">
+                    
+                </div>
+                <div class="for-registro">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="Apellido" required="required" maxlength="15" placeholder="Apellido">
+                </div>
+                <div class="for-registro">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="email" name="Correo" required="required" placeholder="Email">
+                </div>
+                <div class="for-registro">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" name="num-tel"  placeholder="Numero de Telefono">
+                </div>
+                <div class="for-registro">
+                    <i class="fa-solid fa-unlock"></i>
+                    <input type="password" name="clave" maxlength="15" required="required" placeholder="Contraseña">
+                </div>
+                <div class="for-registro">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" maxlength="15" name="clavere" required="required" placeholder="Repite la contraseña">
+                </div>
+                <div class="for-terminos">
+                    <input type="checkbox" name="acept-terminos" id="acept-terminos" >
+                    <label for="acept-terminos">Acepto <a href="">terminos y condiciones</a> </label>
+                </div>
+                <div class="for-btn">
+                    <input type="submit" placeholder="Crear">
+                </div>
+            </form>
+            <p>Ya tienes una cuenta <a href="entrar.html">Inicia sesión</a></p>
+
+        </div>
+    </section>
+</body>
+</html>

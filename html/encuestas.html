@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Encuestas de GREYCONCEPT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/effd921d37.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div id="logo-header">
+            <i class="fa-solid fa-umbrella fa-3x"></i>
+            <div id="LOGO-TIT">
+                <h1>GREYCONCEPT</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li><a href="encuestas.html">Encuesta</a></li>
+                <li><a href="servicios.html">Servicios y Shop</a></li>
+            </ul>
+            <div id="buscador">
+                <input type="text" placeholder="Buscar" >
+                <div id="busc-lp">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div id="registrate">
+                <p><a href="">Registrate</a> </p>
+            </div>
+        </nav>
+    </header>
+    <section id="encuestas">
+        <div id="conteiner-form1">
+            <form action="index.html">
+                <h3>tu Expreriencia con la Pagina</h3>
+                <div class="form-1">
+                    <label>¿Como fue tu experiencia con nuestra pagina?</label>
+                    <br>
+                    <div class="caritas">
+                        <input type="radio" name="buena" id="buena" >
+                        <label for="buena"><i class="fa-solid fa-face-smile" id="feliz"></i></label>
+                        <input type="radio" name="indiferente" id="indiferente">
+                        <label for="indiferente"><i class="fa-solid fa-face-meh" id="indiferente"></i></label>
+                        <input type="radio" name="mala" id="mala">
+                        <label for="mala"><i class="fa-solid fa-face-sad-tear" id="triste"></i></label>    
+                    </div>  
+                </div>
+                <div class="form-1">
+                    <label>¿Como fue tu experiencia con el diseño de la pagina?</label>
+                    <br>
+                    <div class="caritas">
+                        <input type="radio" name="buena" id="buena2" >
+                        <label for="buena2"><i class="fa-solid fa-face-smile" id="feliz2"></i></label>
+                        <input type="radio" name="indiferente2" id="indiferente2">
+                        <label for="indiferente2"><i class="fa-solid fa-face-meh" id="indiferente2"></i></label>
+                        <input type="radio" name="malas" id="malas">
+                        <label for="malas"><i class="fa-solid fa-face-sad-tear" id="triste2"></i></label>    
+                    </div>  
+                </div>
+                <div class="form-1">
+                    <label >¿Que tipo de servicios y productos te intereso mas</label>
+                    <br>
+                    <input type="radio" name="fotosform1" id="fotosform1">
+                    <label for="fotosform1">Sesiones de fotos</label>
+                    <input type="radio" name="producform1" id="producform1">
+                    <label for="producform1">la Seccion de Productos</label>
+                </div>
+                <div class="form-1">
+                    <label>¿Que nos recomiendas para mejorar la experiencia?</label>
+                    <br>
+                    <textarea name="tareaform1"  cols="45" rows="15" placeholder="escribe tu recomendacion "></textarea>
+                </div>
+                <div class="for-btn" >
+                    <input type="submit" placeholder="enviar">
+                </div>
+                
+            </form>
+        </div>
+        <div id="conteiner-form2">
+            <form action="index.html">
+                <h3>Tu experiencia con los servicios y productos</h3>
+                <div class="form-2">
+                    <label class="lb-for2"> Que tipo de servicio o producto contactaste</label>
+                    <select name="contrato">
+                        <option disabled="disabled" selected="selected">Servicios y productos</option>
+                        <option value="Fo">Sesion de Fotos</option>
+                        <option value="Fl">Flashes</option>
+                        <option value="Ja">Jaulas de camaras</option>
+                        <option value="Tr">Trasmisores</option>
+                    </select>
+                </div>
+                <div class="form-2">
+                    <label class="lb-for2"> ¿Que tan conforme estas con el producto o servicio?</label>
+                    <br>
+                    <input type="radio" name="muyconfor" id="muyconfor">
+                    <label for="muyconfor">Muy conforme</label>
+                    <input type="radio" name="pococonfor" id="pococonfor">
+                    <label for="pococonfor">Poco conforme</label>
+                    <input type="radio" name="paranadaconfor" id="paranadaconfor">
+                    <label for="paranadaconfor">Para nada conforme</label>
+                </div>
+                <div class="form-2">
+                    <label class="lb-for2">despues de tu experiencia ¿seguirias contratando nuestros servicios y/o productos?</label>
+                    <br>
+                    <input type="radio" name="si" id="si">
+                    <label for="si">Si</label>
+                    <input type="radio" name="no" id="no">
+                    <label for="no">No</label>
+                </div>
+                <div class="form-2">
+                    <label class="lb-for2">¿Como mejorariamos nuestros servicios?</label>
+                    <br>
+                    <textarea name="tareaform1"  cols="45" rows="15" placeholder="Cuentanos"></textarea>
+                </div>
+                <div class="for-btn">
+                    <input type="submit" placeholder="enviar">
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+</body>
